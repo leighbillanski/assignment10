@@ -18,15 +18,35 @@ public class RaceRepositoryImpl implements RaceRepository {
         return repository;
     }
 
+    private String objInSet(Race race)
+    {
+        String result = null;
+        for(Race t : this.db)
+        {
+            if(t.getName().equals(race.getName()))
+            {
+                result = t.getId();
+                break;
+            }
+        }
+        return result;
+    }
+
     @Override
     public Race create(Race race) {
-        this.db.add(race);
-        return race;
+        String exists = objInSet(race);
+        if(exists == null)
+        {
+            this.db.add(race);
+            return race;
+        } else {
+            return this.read(exists);
+        }
     }
 
     @Override
     public Race update(Race race) {
-        Race r = this.read(race.getName());
+        Race r = this.read(race.getId());
         if(r!=null && this.delete(r))
         {
             this.db.add(race);
@@ -37,16 +57,16 @@ public class RaceRepositoryImpl implements RaceRepository {
 
     @Override
     public Race read(String s) {
-        return this.db.stream().filter(r -> r.getName().toLowerCase().equals(s))
+        return this.db.stream().filter(r -> r.getId().trim().toLowerCase().equals(s.toLowerCase()))
                 .findAny().orElse(null);
     }
 
     @Override
     public boolean delete(Race race) {
-        Race r = this.read(race.getName());
-        if(r != null)
+        String exists = objInSet(race);
+        if(exists != null)
         {
-            this.db.remove(r);
+            this.db.remove(race);
             return true;
         }
         return false;

@@ -28,6 +28,12 @@ public class Race {
             this.id = id;
             return this;
         }
+        public Builder copy(Race race)
+        {
+            this.name = race.name;
+            this.id = race.id;
+            return this;
+        }
         public Race build()
         {
             return new Race(this);
