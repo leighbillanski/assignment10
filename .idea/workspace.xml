@@ -2,51 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a76970-cfb2-4c5c-9af6-224a81e5ea53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/user/EmployeeGenderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/user/EmployeeRaceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/EmployeeGenderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/EmployeeRaceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/GenderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeGenderRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeRaceRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/GenderRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeGenderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeRaceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/GenderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/IService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/RaceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeGenderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeRaceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/GenderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/RaceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/domain/EmployeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/domain/demographics/GenderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/domain/demographics/RaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/domain/user/EmployeeGenderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/domain/user/EmployeeRaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/EmployeeFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/demographics/GenderFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/demographics/RaceFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/user/EmployeeGenderFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/user/EmployeeRaceFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/EmployeeGenderRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/EmployeeRaceRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/EmployeeRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/GenderRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/RaceRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/EmployeeGenderServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/EmployeeRaceServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/EmployeeServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/GenderServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/RaceServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/FullEmployeeServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/demographics/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/demographics/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/demographics/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/demographics/Race.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/EmployeeGenderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/EmployeeGenderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/EmployeeRaceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/EmployeeRaceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeGenderRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeGenderRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeRaceRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeRaceRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/RaceRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/RaceRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeGenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeGenderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeRaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeRaceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/GenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/GenderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/RaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/RaceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeGenderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeGenderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeRaceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeRaceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/GenderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/GenderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/RaceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/RaceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/EmployeeGenderRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/EmployeeGenderRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/EmployeeGenderServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/EmployeeGenderServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/EmployeeGenderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/EmployeeGenderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/EmployeeRaceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/EmployeeRaceRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/impl/EmployeeGenderRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/impl/EmployeeGenderRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/impl/EmployeeRaceRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/impl/EmployeeRaceRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/impl/EmployeeRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/impl/EmployeeRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/impl/RaceRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/impl/RaceRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/service/EmployeeGenderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/service/EmployeeGenderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/service/EmployeeRaceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/service/EmployeeRaceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/service/EmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/service/GenderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/service/GenderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/service/RaceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/service/RaceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/service/impl/EmployeeGenderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/service/impl/EmployeeGenderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/service/impl/EmployeeRaceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/service/impl/EmployeeRaceServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/service/impl/GenderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/service/impl/GenderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/service/impl/RaceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/service/impl/RaceServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/repository/impl/EmployeeGenderRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/repository/impl/EmployeeGenderRepositoryImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/service/impl/EmployeeGenderServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/service/impl/EmployeeGenderServiceImplTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,37 +61,71 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="114" />
+          <entry key="java" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="114" />
+          <entry key="JAVA" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="7863" />
+          <entry key="java" value="10458" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7863" />
+          <entry key="JAVA" value="10458" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/FullEmployeeServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/RaceRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-43">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -122,14 +149,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/demographics/RaceFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/user/EmployeeRace.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/user/EmployeeGender.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/RaceRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/user/EmployeeGenderFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/user/EmployeeRaceFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/GenderRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/EmployeeFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/demographics/RaceFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/demographics/GenderFactoryTest.java" />
@@ -140,7 +163,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/demographics/Race.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/GenderRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/GenderRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/RaceRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/RaceRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/domain/EmployeeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/domain/user/EmployeeGenderTest.java" />
@@ -149,30 +171,35 @@
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/domain/demographics/RaceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/IService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/IService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/GenderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/RaceService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/EmployeeGenderRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/EmployeeRaceRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeRaceRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeGenderRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/EmployeeGenderRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/imol/EmployeeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/GenderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/RaceServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/RaceServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/GenderServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeGenderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeRaceService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeGenderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeRaceServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/EmployeeRaceRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/EmployeeRaceServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/EmployeeGenderServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/EmployeeServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/FullEmployeeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/FullEmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/FullEmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/FullEmpoyeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/GenderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/GenderRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/EmployeeGenderRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeGenderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeGenderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeGenderRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/EmployeeGenderRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/EmployeeGenderServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/EmployeeRaceRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeRaceRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/RaceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeRaceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeRaceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/GenderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/RaceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/RaceRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/FullEmployeeServiceTest.java" />
       </list>
     </option>
   </component>
@@ -325,7 +352,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/valery/Documents/Projects/IdeaProjects/assignment10/src/main/java/ac/za/cput/factory/demographics/GenderFactory.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564947134246" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565027075909" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -355,8 +382,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeServiceImplTest">
-    <configuration name="EmployeeGenderServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FullEmployeeServiceTest">
+    <configuration name="FullEmployeeServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment10" />
       <extension name="coverage">
         <pattern>
@@ -365,12 +392,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ac.za.cput.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="ac.za.cput.service.impl.EmployeeGenderServiceImplTest" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.service.impl.FullEmployeeServiceTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FullEmployeeServiceTest.getEmployeesFromGender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment10" />
       <extension name="coverage">
         <pattern>
@@ -379,28 +406,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ac.za.cput.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="ac.za.cput.service.impl.EmployeeServiceImplTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenderServiceImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ac.za.cput.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ac.za.cput.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="ac.za.cput.service.impl.GenderServiceImplTest" />
-      <option name="METHOD_NAME" value="delete" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.service.impl.FullEmployeeServiceTest" />
+      <option name="METHOD_NAME" value="getEmployeesFromGender" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenderServiceImplTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FullEmployeeServiceTest.getEmployeesFromRace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment10" />
       <extension name="coverage">
         <pattern>
@@ -409,14 +422,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ac.za.cput.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="ac.za.cput.service.impl.GenderServiceImplTest" />
-      <option name="METHOD_NAME" value="read" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.service.impl.FullEmployeeServiceTest" />
+      <option name="METHOD_NAME" value="getEmployeesFromRace" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenderServiceImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FullEmployeeServiceTest.getGender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment10" />
       <extension name="coverage">
         <pattern>
@@ -425,27 +438,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ac.za.cput.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="ac.za.cput.service.impl.GenderServiceImplTest" />
-      <option name="METHOD_NAME" value="update" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.service.impl.FullEmployeeServiceTest" />
+      <option name="METHOD_NAME" value="getGender" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FullEmployeeServiceTest.getRace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.za.cput.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac.za.cput.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.service.impl.FullEmployeeServiceTest" />
+      <option name="METHOD_NAME" value="getRace" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GenderServiceImplTest.read" />
-      <item itemvalue="JUnit.GenderServiceImplTest.delete" />
-      <item itemvalue="JUnit.GenderServiceImplTest.update" />
-      <item itemvalue="JUnit.EmployeeGenderServiceImplTest" />
-      <item itemvalue="JUnit.EmployeeServiceImplTest" />
+      <item itemvalue="JUnit.FullEmployeeServiceTest.getRace" />
+      <item itemvalue="JUnit.FullEmployeeServiceTest.getGender" />
+      <item itemvalue="JUnit.FullEmployeeServiceTest.getEmployeesFromGender" />
+      <item itemvalue="JUnit.FullEmployeeServiceTest.getEmployeesFromRace" />
+      <item itemvalue="JUnit.FullEmployeeServiceTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeServiceImplTest" />
-        <item itemvalue="JUnit.EmployeeGenderServiceImplTest" />
-        <item itemvalue="JUnit.GenderServiceImplTest.update" />
-        <item itemvalue="JUnit.GenderServiceImplTest.delete" />
-        <item itemvalue="JUnit.GenderServiceImplTest.read" />
+        <item itemvalue="JUnit.FullEmployeeServiceTest" />
+        <item itemvalue="JUnit.FullEmployeeServiceTest.getEmployeesFromRace" />
+        <item itemvalue="JUnit.FullEmployeeServiceTest.getEmployeesFromGender" />
+        <item itemvalue="JUnit.FullEmployeeServiceTest.getGender" />
+        <item itemvalue="JUnit.FullEmployeeServiceTest.getRace" />
       </list>
     </recent_temporary>
   </component>
@@ -460,49 +489,50 @@
       <option name="presentableId" value="Default" />
       <updated>1564420969909</updated>
       <workItem from="1564420971465" duration="4472000" />
-      <workItem from="1564936265695" duration="9975000" />
+      <workItem from="1564936265695" duration="16211000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EmployeeGenderRepositoryImplTest_create - 2019.08.04 at 20h 39m 15s.xml">
-      <configuration name="EmployeeGenderRepositoryImplTest.create" configurationId="JUnit" />
+    <history-entry file="FullEmployeeServiceTest_createDb - 2019.08.05 at 19h 32m 04s.xml">
+      <configuration name="FullEmployeeServiceTest.createDb" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeGenderRepositoryImplTest_update - 2019.08.04 at 20h 39m 18s.xml">
-      <configuration name="EmployeeGenderRepositoryImplTest.update" configurationId="JUnit" />
+    <history-entry file="FullEmployeeServiceTest_createDb - 2019.08.05 at 19h 33m 19s.xml">
+      <configuration name="FullEmployeeServiceTest.createDb" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeGenderRepositoryImplTest_read - 2019.08.04 at 20h 39m 26s.xml">
-      <configuration name="EmployeeGenderRepositoryImplTest.read" configurationId="JUnit" />
+    <history-entry file="FullEmployeeServiceTest_createDb - 2019.08.05 at 19h 33m 33s.xml">
+      <configuration name="FullEmployeeServiceTest.createDb" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeGenderRepositoryImplTest_delete - 2019.08.04 at 20h 39m 30s.xml">
-      <configuration name="EmployeeGenderRepositoryImplTest.delete" configurationId="JUnit" />
+    <history-entry file="FullEmployeeServiceTest_getRace - 2019.08.05 at 19h 35m 47s.xml">
+      <configuration name="FullEmployeeServiceTest.getRace" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenderServiceImplTest_create - 2019.08.04 at 21h 11m 14s.xml">
-      <configuration name="GenderServiceImplTest.create" configurationId="JUnit" />
+    <history-entry file="FullEmployeeServiceTest_getRace - 2019.08.05 at 19h 36m 29s.xml">
+      <configuration name="FullEmployeeServiceTest.getRace" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenderServiceImplTest_read - 2019.08.04 at 21h 11m 44s.xml">
-      <configuration name="GenderServiceImplTest.read" configurationId="JUnit" />
+    <history-entry file="FullEmployeeServiceTest_getRace - 2019.08.05 at 19h 37m 20s.xml">
+      <configuration name="FullEmployeeServiceTest.getRace" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenderServiceImplTest_delete - 2019.08.04 at 21h 12m 26s.xml">
-      <configuration name="GenderServiceImplTest.delete" configurationId="JUnit" />
+    <history-entry file="FullEmployeeServiceTest_getGender - 2019.08.05 at 19h 37m 52s.xml">
+      <configuration name="FullEmployeeServiceTest.getGender" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GenderServiceImplTest_update - 2019.08.04 at 21h 13m 58s.xml">
-      <configuration name="GenderServiceImplTest.update" configurationId="JUnit" />
+    <history-entry file="FullEmployeeServiceTest_getEmployeesFromGender - 2019.08.05 at 19h 42m 25s.xml">
+      <configuration name="FullEmployeeServiceTest.getEmployeesFromGender" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeGenderServiceImplTest - 2019.08.04 at 21h 25m 22s.xml">
-      <configuration name="EmployeeGenderServiceImplTest" configurationId="JUnit" />
+    <history-entry file="FullEmployeeServiceTest_getEmployeesFromRace - 2019.08.05 at 19h 43m 30s.xml">
+      <configuration name="FullEmployeeServiceTest.getEmployeesFromRace" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeServiceImplTest - 2019.08.04 at 21h 27m 03s.xml">
-      <configuration name="EmployeeServiceImplTest" configurationId="JUnit" />
+    <history-entry file="FullEmployeeServiceTest - 2019.08.05 at 19h 43m 46s.xml">
+      <configuration name="FullEmployeeServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14447000" />
+    <option name="totallyTimeSpent" value="20683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -511,7 +541,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,23 +569,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/factory/demographics/GenderFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/factory/demographics/GenderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/factory/EmployeeFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -595,42 +608,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/GenderRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="74" column="5" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/GenderRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/RaceRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,13 +662,6 @@
             <element signature="e#550#551#0" expanded="true" />
             <element signature="e#596#597#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/domain/user/EmployeeRace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -774,140 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/GenderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/RaceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/EmployeeGenderRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/GenderRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/EmployeeRaceRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="81" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/EmployeeGenderRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeGenderRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeRaceRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/RaceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/GenderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/IService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeGenderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeRaceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/RaceServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -936,41 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/EmployeeGenderServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeRaceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeGenderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/EmployeeRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -982,16 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,10 +808,237 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/FullEmployeeService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/domain/user/EmployeeRace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/FullEmpoyeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/FullEmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/GenderRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/EmployeeGenderRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="81" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/EmployeeGenderServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="76" column="49" lean-forward="true" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/EmployeeRaceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/EmployeeGenderRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeGenderRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="66" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/GenderRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/RaceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/GenderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeGenderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/EmployeeRaceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/GenderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeRaceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeGenderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/IService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeRaceRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/RaceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/EmployeeRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/RaceRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/FullEmployeeServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
         </state>
       </provider>
     </entry>

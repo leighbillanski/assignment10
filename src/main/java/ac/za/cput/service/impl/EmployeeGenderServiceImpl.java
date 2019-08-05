@@ -5,9 +5,12 @@ import ac.za.cput.repository.EmployeeGenderRepository;
 import ac.za.cput.repository.impl.EmployeeGenderRepositoryImpl;
 import ac.za.cput.service.EmployeeGenderService;
 
+import java.util.List;
+
 public class EmployeeGenderServiceImpl implements EmployeeGenderService {
     private static EmployeeGenderService service;
     private EmployeeGenderRepository repository;
+    private String s;
 
     public static EmployeeGenderService getService()
     {
@@ -37,5 +40,10 @@ public class EmployeeGenderServiceImpl implements EmployeeGenderService {
     @Override
     public boolean delete(EmployeeGender employee) {
         return this.repository.delete(employee);
+    }
+
+    @Override
+    public List<EmployeeGender> readEg(String s) {
+        return this.repository.readEg(s);
     }
 }

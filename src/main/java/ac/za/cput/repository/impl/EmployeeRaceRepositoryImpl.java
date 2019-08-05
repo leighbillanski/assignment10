@@ -3,7 +3,9 @@ package ac.za.cput.repository.impl;
 import ac.za.cput.domain.user.EmployeeRace;
 import ac.za.cput.repository.EmployeeRaceRepository;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 
 public class EmployeeRaceRepositoryImpl implements EmployeeRaceRepository {
     private static EmployeeRaceRepository repository;
@@ -53,5 +55,15 @@ public class EmployeeRaceRepositoryImpl implements EmployeeRaceRepository {
             return true;
         }
         return false;
+    }
+
+    @Override
+    public List<EmployeeRace> readEr(String s) {
+        List<EmployeeRace> egL= new ArrayList<>();
+        for(EmployeeRace eg : this.db)
+        {
+            if(eg.getRaceId().equals(s)) egL.add(eg);
+        }
+        return egL;
     }
 }

@@ -1,9 +1,15 @@
 package ac.za.cput.service.impl;
 
+import ac.za.cput.domain.Employee;
 import ac.za.cput.domain.demographics.Gender;
+import ac.za.cput.domain.user.EmployeeGender;
+import ac.za.cput.factory.user.EmployeeGenderFactory;
 import ac.za.cput.repository.GenderRepository;
 import ac.za.cput.repository.impl.GenderRepositoryImpl;
 import ac.za.cput.service.GenderService;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class GenderServiceImpl implements GenderService {
     private static GenderService service;
@@ -36,5 +42,17 @@ public class GenderServiceImpl implements GenderService {
     @Override
     public boolean delete(Gender gender) {
         return this.repository.delete(gender);
+    }
+
+    @Override
+    public List getEmployees(Gender gender) {
+        gender = GenderServiceImpl.getService().create(gender);
+        List<EmployeeGender> egL = EmployeeGenderServiceImpl.getService().readEg(gender.getId());
+        List<Employee> empL = new ArrayList<>();
+        for(EmployeeGender eg : egL)
+        {
+            empL.add(EmployeeServiceImpl.getService().read(eg.getEmpId()));
+        }
+        return empL;
     }
 }

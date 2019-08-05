@@ -3,7 +3,9 @@ package ac.za.cput.repository.impl;
 import ac.za.cput.domain.user.EmployeeGender;
 import ac.za.cput.repository.EmployeeGenderRepository;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 
 public class EmployeeGenderRepositoryImpl implements EmployeeGenderRepository {
     private static EmployeeGenderRepository repository;
@@ -53,5 +55,15 @@ public class EmployeeGenderRepositoryImpl implements EmployeeGenderRepository {
             return true;
         }
         return false;
+    }
+
+    @Override
+    public List<EmployeeGender> readEg(String s) {
+        List<EmployeeGender> egL= new ArrayList<>();
+        for(EmployeeGender eg : this.db)
+        {
+            if(eg.getGenderId().equals(s)) egL.add(eg);
+        }
+        return egL;
     }
 }

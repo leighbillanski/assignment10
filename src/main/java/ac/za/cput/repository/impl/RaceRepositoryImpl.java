@@ -42,6 +42,7 @@ public class RaceRepositoryImpl implements RaceRepository {
         } else {
             return this.read(exists);
         }
+
     }
 
     @Override

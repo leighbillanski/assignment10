@@ -20,8 +20,24 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
         return repository;
     }
 
+    private Employee findByName(String firstName, String lastName)
+    {
+        for(Employee emp : this.db)
+        {
+            if(emp.getFirstName().toLowerCase().equals(firstName.toLowerCase()) && emp.getLastName().toLowerCase().equals(lastName.toLowerCase()))
+            {
+                return emp;
+            }
+        }
+        return null;
+    }
     @Override
     public Employee create(Employee employee) {
+        Employee read = this.read(employee.getEmpId());
+        Employee rname = this.findByName(employee.getFirstName(), employee.getLastName());
+        if(read != null) return read;
+        else if(rname != null) return rname;
+
         db.add(employee);
         return employee;
     }

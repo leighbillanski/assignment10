@@ -10,6 +10,8 @@ import ac.za.cput.service.EmployeeGenderService;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 public class EmployeeGenderServiceImplTest {
@@ -59,5 +61,22 @@ public class EmployeeGenderServiceImplTest {
         boolean res = this.service.delete(er);
         assertTrue(res);
         assertNull(this.service.read(emp.getEmpId()));
+    }
+
+    @Test
+    public void readEg() {
+        create();
+        Employee emp;
+        Gender gender;
+        EmployeeGender er;
+        emp = EmployeeFactory.getEmployee("Test2", "Name2");
+        gender = GenderFactory.getGender("Male");
+        gender = GenderServiceImpl.getService().create(gender);
+
+        er = EmployeeGenderFactory.getEmployeeGender(emp.getEmpId(), gender.getId());
+        EmployeeGender test = service.create(er);
+
+        List<EmployeeGender> egL = this.service.readEg(gender.getId());
+        assertNotNull(egL);
     }
 }
